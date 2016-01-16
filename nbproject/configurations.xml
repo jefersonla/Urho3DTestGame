@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="TestGame"
+                   displayName="TestGame"
+                   projectFiles="true"
+                   root=".">
+      <itemPath>GameSystem.h</itemPath>
+      <itemPath>GameSystem.inl</itemPath>
+      <itemPath>Main.cpp</itemPath>
+      <itemPath>Main.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-march=native -ffast-math -m64"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>bin/Main</executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>/usr/local/include</pElem>
+              <pElem>/usr/local/include/Urho3D/ThirdParty</pElem>
+              <pElem>/usr/local/include/Urho3D/ThirdParty/Bullet</pElem>
+              <pElem>/usr/local/include/Urho3D/ThirdParty/Lua</pElem>
+              <pElem>/usr/local/include/Urho3D/ThirdParty/LuaJIT</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>DEBUG</Elem>
+              <Elem>GLEW_NO_GLU</Elem>
+              <Elem>GLEW_STATIC</Elem>
+              <Elem>TOLUA_RELEASE</Elem>
+              <Elem>URHO3D_ANGELSCRIPT</Elem>
+              <Elem>URHO3D_LOGGING</Elem>
+              <Elem>URHO3D_LUA</Elem>
+              <Elem>URHO3D_NAVIGATION</Elem>
+              <Elem>URHO3D_NETWORK</Elem>
+              <Elem>URHO3D_PHYSICS</Elem>
+              <Elem>URHO3D_PROFILING</Elem>
+              <Elem>URHO3D_THREADING</Elem>
+              <Elem>URHO3D_URHO2D</Elem>
+              <Elem>_DEBUG</Elem>
+            </preprocessorList>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand>cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=${IDE_CC} -DCMAKE_CXX_COMPILER=${IDE_CXX} -DCMAKE_C_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_CXX_FLAGS_DEBUG="-g3 -gdwarf-2" -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .</preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="Main.cpp" ex="false" tool="1" flavor2="0">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <folder path="TestGame">
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+      </folder>
+    </conf>
+  </confs>
+</configurationDescriptor>

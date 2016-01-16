@@ -1,0 +1,1 @@
+/usr/bin/g++    -Wno-invalid-offsetof -march=native -ffast-math -m64 -pthread -fdiagnostics-color=auto -g3 -gdwarf-2 -DDEBUG -D_DEBUG   -Wl,-E CMakeFiles/Main.dir/Main.cpp.o  -o bin/Main -rdynamic /usr/local/lib/Urho3D/libUrho3D.so -ldl -lrt -ldl -lm -lGL -lrt -lm -lGL -Wl,-rpath,/usr/local/lib/Urho3D 

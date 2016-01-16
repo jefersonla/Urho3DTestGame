@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/jeferson/Projects/TestGame",
+  "command": "/usr/bin/g++   -DGLEW_NO_GLU -DGLEW_STATIC -DTOLUA_RELEASE -DURHO3D_ANGELSCRIPT -DURHO3D_LOGGING -DURHO3D_LUA -DURHO3D_NAVIGATION -DURHO3D_NETWORK -DURHO3D_PHYSICS -DURHO3D_PROFILING -DURHO3D_THREADING -DURHO3D_URHO2D -I/usr/local/include -I/usr/local/include/Urho3D/ThirdParty -I/usr/local/include/Urho3D/ThirdParty/Bullet -I/usr/local/include/Urho3D/ThirdParty/Lua -I/usr/local/include/Urho3D/ThirdParty/LuaJIT   -Wno-invalid-offsetof -march=native -ffast-math -m64 -pthread -fdiagnostics-color=auto -g3 -gdwarf-2 -DDEBUG -D_DEBUG   -o CMakeFiles/Main.dir/Main.cpp.o -c /home/jeferson/Projects/TestGame/Main.cpp",
+  "file": "/home/jeferson/Projects/TestGame/Main.cpp"
+}
+]
